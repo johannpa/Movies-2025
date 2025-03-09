@@ -12,9 +12,9 @@ const App = () => {
 
       <h2>Functional Arrow Component</h2>
   
-      <Card />
-      <Card />
-      <Card />
+      <Card title="Star Wars"/>
+      <Card title="Avatar"/>
+      <Card title="The Lion King"/>
     </div>
   )
 }
