@@ -8,7 +8,7 @@ const Card = ({ title }) => {
       <h2>{title}</h2>
 
       <button onClick={() => setHasLiked(true)}>
-        Like
+        {hasLiked ? 'Liked' : 'Like' }
       </button>
     </div>
     )
